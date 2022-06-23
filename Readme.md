@@ -8,7 +8,7 @@ docker build -t website:1.0.0 .
 
 ### Run the image
 ```bash
-docker run --name website1 -p 8080:8080 -d website:1.0.0
+docker run --name website1 -p 8080:80 -d website:1.0.0
 ```
 
 ### Check running
